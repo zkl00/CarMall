@@ -1,0 +1,32 @@
+[
+    {
+        "title":"系统首页",
+        "id":"1",
+        "path":"/home",
+        "icon":"el-icon-s-home"
+    },
+    {
+        "title":"基础表格",
+        "path":"/form",
+        "id":"2",
+        "icon":"el-icon-menu"
+    },
+     {
+        "title":"表单相关",
+        "path":"/Dataform",
+        "id":"3",
+        "icon":"el-icon-tickets",
+        "chiilerd":[
+            {
+                "title":"基本表单",
+                "path":"/formList",
+                 "id":"1-1"
+            },
+            {
+                "title":"表单操作",
+                "path":"/formCar",
+                 "id":"1-2"
+            }
+        ]
+    }
+]
